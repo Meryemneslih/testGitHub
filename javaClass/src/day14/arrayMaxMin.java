@@ -16,8 +16,6 @@ int min=myArray[0];
 
             if (myArray[i] <min)
                 min = myArray[i];
-
-
         }
         System.out.println(max);
         System.out.println(min);
