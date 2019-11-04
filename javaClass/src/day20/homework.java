@@ -35,7 +35,7 @@ public class homework {
 //deneme
 //        boolean condition = true;
 //        for (int i = 0; i < myList.size(); i++) {
-//            if (myList.size().equals(mySet.size())) {
+//            if (myList.size()==(mySet.size())) {
 //                System.out.println(myList[i] + "==" + mySet[i]);
 //                condition = true;
 

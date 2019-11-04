@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-public class HashMapCounting {
+public class HashMapCountHW {
     public static void main(String[] args) {
 
 //
@@ -33,6 +33,13 @@ public class HashMapCounting {
         //part4
         // when you are putting character, check if you have that character already,
         // if you have, increment value, if you dont have just add character to map
+        System.out.println("4=================");
+        if(map.containsKey("C")){
+            map.put('C',11);
+        }else{
+            map.put('C',5);
+        }
+        System.out.println(map);
 
         //part5
         //print HashMap
