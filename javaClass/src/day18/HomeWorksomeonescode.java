@@ -1,7 +1,8 @@
 package day18;
 
-public class HWBayrambey {
+public class HomeWorksomeonescode {
     public static void main(String[] args) {
+        //checking value inside an array
         int [] arr={7,8,1,4,5,2,2,2,1};
         int count1 = 0;
         int count2 = 0;
