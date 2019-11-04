@@ -10,10 +10,6 @@ public class homeWorkHashMapAnagram {
         String s = "anagram";
         String  t= "nagaram";
 
-
-//        char c = s.charAt();
-//        System.out.println(c);
-
         char[] c = s.toCharArray();
         System.out.println(c);
         Arrays.sort(c);
@@ -46,12 +42,6 @@ public class homeWorkHashMapAnagram {
 
         }
 
-//        for (int i=0;i<s.length();i++) {
-//            System.out.println(s.charAt(i));
-//        }
-//        for (int i=0;i<t.length();i++) {
-//            System.out.println(t.charAt(i));
-//        }
 
 
     }
