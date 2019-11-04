@@ -34,6 +34,15 @@ public class Homework {
         System.out.println((double)Sum/myArray.length);
 
         System.out.println("=========================");
+        //2.way
+        int i, sum, average;
+        sum = 0;
+        for (i = 0; i < myArray.length; i++) {
+            sum += myArray[i];
+        }
+       double average1 =(double) sum / myArray.length;
+        System.out.println("The average of given score " + average1);
+
 
 
     }
