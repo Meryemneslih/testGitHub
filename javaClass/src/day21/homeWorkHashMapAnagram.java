@@ -22,11 +22,11 @@ public class homeWorkHashMapAnagram {
 
         boolean b=true;
         for(int i=0;i<d.length;i++) {
-            if (c[i] == d[i]) {
+            if (c[i] != d[i]) {
+                b=false;
+            }else{
                 b=true;
-                System.out.println(b);
                 break;
-
             }
 
 //            boolean isEqual = true;

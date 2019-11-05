@@ -21,6 +21,7 @@ public class HashMapReverse {
 
         System.out.println("Omer Ozdemir......................................");
         HashMap<String, Integer> map2 = (HashMap<String, Integer>) map.clone();
+        System.out.println(map2);
         for (Map.Entry m : map2.entrySet()) {
             System.out.println(m.getKey() + " " + m.getValue());
         }
